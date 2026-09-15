@@ -1,0 +1,40 @@
+\section{Introduction}
+
+Traditionally IT has had to choose less efficient means of storage for
+certain classes of data (e.g. long-term data storage) for economic
+reasons. To this end, legacy systems have used means such as tape or
+optical to offload data from primary HDD storage for long-term archival.
+However, such a trade-off becomes something of a faustian bargain, where
+reduction in purchase price is traded for decreased efficiency
+attributing to the manual nature of the medium. Today the dramatic
+reduction in HDD cost \cite{ref1} coupled with MTTF rates greater than 100
+years \cite{ref2} obviates the need for IT to make do with lesser means of
+data storage. As these twin dynamics play out over time, HDD will
+increasingly become the medium of choice for all data storage; removing
+the need for IT to artificially create separate storage policies for
+various types of data.
+
+While reduced cost and increased reliability solves the problem of
+physical medium, significant work remains to improve the lot of both IT
+Operations (Ops) and the application developer. Long-term storage of
+data, where time is measured in years to decades, introduces challenges
+beyond those typically associated with short-term data storage.
+Specifically: how can applications efficiently and effectively manage
+the complexity of 1000's of millions (10\textsuperscript{9}) to millions
+of millions (10\textsuperscript{12}) of files over extended periods of
+time.
+
+The continued increase in data creation is well documented. In
+particular, there is substantial evidence that storage requirements for
+one category of data is increasing at an increasing rate \cite{ref5,ref6}.
+This class of data has several monikers, the more prevalent include:
+fixed content, reference data, and unstructured data. Whatever the name,
+this class of data is characterized as data that changes either
+infrequently or not at all; e.g. medical imaging, archived documents and
+email, etc.
+
+To move forward in these areas requires advancements in software
+methodology to complement the advances in hardware. This paper looks at
+means of increasing abstraction from the perspective of the application
+and IT Ops, as well as presenting a new model for addressing storage
+based on the content of the data itself.
