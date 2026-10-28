@@ -42,14 +42,14 @@ and the [RDOS paper](https://github.com/rprimmer/Relational-Distributed-Object-S
   architecture diagrams extracted from the Word document.
 - [scripts/package-overleaf.py](scripts/package-overleaf.py): source and figure packager.
 - `build/` and `dist/`: generated outputs, excluded from Git.
-- `Attic/`: all nine originals, preserved byte-for-byte and excluded from Git.
+- `_attic/`: all nine originals, preserved byte-for-byte and excluded from Git.
 - `.conversion-baseline/`: extraction, SHA-256 manifest, and verification records,
   excluded from Git.
 
 ## Conversion scope
 
-The five-page `Attic/CenteraAbstraction.pdf` is the authority for figure content,
-publication date, and reference numbering. `Attic/Centera Abstraction.docx`
+The five-page `_attic/CenteraAbstraction.pdf` is the authority for figure content,
+publication date, and reference numbering. `_attic/Centera Abstraction.docx`
 supplied the prose. The new edition uses the established single-column LaTeX
 layout, with numbered sections and generated figure and bibliography links.
 
